@@ -1,0 +1,31 @@
+ul li{
+    list-style: none;
+    padding: 10px 20px;
+    background-color: #948e99;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: #cad1c3;
+}
+
+li:hover{
+    background-color:#e7eed0;
+}
+ul{
+    display:flex;
+    padding: 20px 20px;
+    background-color: #292522;
+}
+.pseudo{
+    font-size: xx-large;
+    margin-left: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #292522;
+}
