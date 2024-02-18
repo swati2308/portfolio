@@ -3,10 +3,10 @@ import { Navbar } from '../Components/Navbar'
 import './Contact.css'
 export const Contact = () => {
   return (
-    <div>
+    <div className='text-center'>
         <Navbar/>
-            <p className='mail'>Mail : swati.kr2308@gmail.com</p>
-            <p className='linkedin'>LinkedIn : swati-kumari-2a3846230</p>
+            <p className='text-3xl italic font-sans'>Mail : swati.kr2308@gmail.com</p>
+            <p className='text-3xl italic font-sans'>LinkedIn : swati-kumari-2a3846230</p>
         </div>
   )
 }

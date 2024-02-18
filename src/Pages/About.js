@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div>
         <Navbar name="swati"/>
-        <p className="para">
+        <p className='text-2xl'>
               <h3>Hi there!</h3>
               I am <b>Swati Kumari</b>, hailing from Muzaffarpur, Bihar, with a proud lineage of military service as my father is an ex-army man. This makes me inherently resilient and disciplined, embodying the spirit of a soldier.
     

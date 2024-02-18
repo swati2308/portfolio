@@ -4,16 +4,19 @@ import './Navbar.css'
 
 export const Navbar = (props) => {
     return(
-        <nav className='navbar'>
+        <nav>
           <ul>
             {console.log(props.name)}
             <NavLink to="/"><li>Home</li></NavLink>
-            <NavLink to="/about"><li>About</li></NavLink>
-            <NavLink to="/contact"><li>Contact</li></NavLink>
-            <li className='pseudo'>Swati Kumari</li>
+            <NavLink to="/about"><li>About Me</li></NavLink>
+            <NavLink to="/myskills"><li>My Skills</li></NavLink>
+            <NavLink to="/portfolio"><li>Portfolio</li></NavLink>
+            <NavLink to="/contact"><li>Contacts</li></NavLink>
           </ul>
         </nav>
   )
 }
+
+
 
 
